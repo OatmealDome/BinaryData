@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<Description>Deprecated in favor of Syroot.Binary.</Description>
+		<Description>Deprecated in favor of Syroot.BinaryData</Description>
 		<Copyright>(c) Syroot, licensed under MIT</Copyright>
 		<AssemblyName>Syroot.BinaryData</AssemblyName>
 		<AssemblyTitle>BinaryData</AssemblyTitle>
