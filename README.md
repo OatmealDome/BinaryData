@@ -1,4 +1,14 @@
-# BinaryData
+# OatmealDome's BinaryData Fork
+
+This is a fork of Syroot.BinaryData on version 4.0.4.
+
+A bunch of libraries and programs (for example, Switch Toolbox) use other libraries originally made by Syroot which in turn use BinaryData, and they are very particular about which BinaryData version they use. This complicates things I write which use my preferred BinaryData version in separate parts of the code. Because of this, I decided to fork 4.0.4 so I can change the namespace and version to avoid conflicts.
+
+I also personally dislike the changes made in version 5.0.0+ of the library, and much prefer to use the APIs in 4.0.0.
+
+If you're looking to use Syroot.BinaryData, I recommend you take a look at [the latest version](https://www.nuget.org/packages/Syroot.BinaryData/) and use that instead. This fork is really just for my personal purposes.
+
+# Original Readme
 
 When parsing or storing data in binary file formats, the functionality offered by the default .NET `BinaryReader` and
 `BinaryWriter` classes is often insufficient. It lacks support for a different byte order than the system one, and
