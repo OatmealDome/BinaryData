@@ -1,20 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<Description>Deprecated in favor of Syroot.BinaryData</Description>
+		<Description>OatmealDome's fork of Syroot.BinaryData.</Description>
 		<Copyright>(c) Syroot, licensed under MIT</Copyright>
-		<AssemblyName>Syroot.BinaryData</AssemblyName>
+		<AssemblyName>OatmealDome.BinaryData</AssemblyName>
 		<AssemblyTitle>BinaryData</AssemblyTitle>
-		<Authors>Syroot</Authors>
-		<VersionPrefix>4.0.4</VersionPrefix>
+		<Authors>Syroot,OatmealDome</Authors>
+		<VersionPrefix>1.0.0</VersionPrefix>
 
-		<PackageId>Syroot.IO.BinaryData</PackageId>
+		<PackageId>OatmealDome.BinaryData</PackageId>
 		<PackageTags>binary;data;io;binaryreader;binarywriter</PackageTags>
-		<PackageReleaseNotes>Add deprecation warning.</PackageReleaseNotes>
-		<PackageIconUrl>https://raw.githubusercontent.com/Syroot/BinaryData/master/res/Logo.png</PackageIconUrl>
-		<PackageProjectUrl>https://github.com/Syroot/BinaryData</PackageProjectUrl>
-		<PackageLicenseUrl>https://raw.githubusercontent.com/Syroot/BinaryData/master/LICENSE</PackageLicenseUrl>
+		<PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+		<PackageIconUrl>https://raw.githubusercontent.com/OatmealDome/BinaryData/master/res/Logo.png</PackageIconUrl>
+		<PackageProjectUrl>https://github.com/OatmealDome/BinaryData</PackageProjectUrl>
+		<PackageLicenseUrl>https://raw.githubusercontent.com/OatmealDome/BinaryData/master/LICENSE</PackageLicenseUrl>
 		<RepositoryType>git</RepositoryType>
-		<RepositoryUrl>https://github.com/Syroot/BinaryData</RepositoryUrl>
+		<RepositoryUrl>https://github.com/OatmealDome/BinaryData</RepositoryUrl>
 
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<Configurations>Debug;Release;Release_Signed</Configurations>
