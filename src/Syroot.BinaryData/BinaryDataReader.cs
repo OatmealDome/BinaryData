@@ -2,9 +2,9 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Text;
-using Syroot.BinaryData.Extensions;
+using OatmealDome.BinaryData.Extensions;
 
-namespace Syroot.BinaryData
+namespace OatmealDome.BinaryData
 {
     /// <summary>
     /// Represents an extended <see cref="BinaryReader"/> supporting special file format data types.

@@ -3,9 +3,9 @@ using System.IO;
 using System.Text;
 using System.Threading;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Syroot.BinaryData.Extensions;
+using OatmealDome.BinaryData.Extensions;
 
-namespace Syroot.BinaryData.UnitTest
+namespace OatmealDome.BinaryData.UnitTest
 {
     public partial class StreamExtensionsTests
     {

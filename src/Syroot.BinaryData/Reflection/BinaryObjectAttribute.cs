@@ -1,6 +1,6 @@
 using System;
 
-namespace Syroot.BinaryData
+namespace OatmealDome.BinaryData
 {
     /// <summary>
     /// Represents a class or struct configuration for reading and writing it as binary data.

@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 
-namespace Syroot.BinaryData
+namespace OatmealDome.BinaryData
 {
     /// <summary>
     /// Represents a member configuration for reading and writing it as binary data.

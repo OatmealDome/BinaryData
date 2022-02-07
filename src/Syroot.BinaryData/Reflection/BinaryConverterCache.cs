@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Syroot.BinaryData
+namespace OatmealDome.BinaryData
 {
     /// <summary>
     /// Represents a cache for <see cref="IBinaryConverter"/> instances.

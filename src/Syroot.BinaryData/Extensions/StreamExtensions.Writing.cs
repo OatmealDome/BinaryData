@@ -5,9 +5,9 @@ using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
-using Syroot.BinaryData.Core;
+using OatmealDome.BinaryData.Core;
 
-namespace Syroot.BinaryData.Extensions
+namespace OatmealDome.BinaryData.Extensions
 {
     public static partial class StreamExtensions
     {

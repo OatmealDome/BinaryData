@@ -1,6 +1,6 @@
 using System.IO;
 
-namespace Syroot.BinaryData
+namespace OatmealDome.BinaryData
 {
     /// <summary>
     /// Represents a converter for reading and writing custom binary values.

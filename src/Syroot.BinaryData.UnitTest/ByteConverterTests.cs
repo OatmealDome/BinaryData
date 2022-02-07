@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Syroot.BinaryData.UnitTest
+namespace OatmealDome.BinaryData.UnitTest
 {
     [TestClass]
     public class ByteConverterTests

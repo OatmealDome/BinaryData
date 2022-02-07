@@ -1,4 +1,4 @@
-﻿namespace Syroot.BinaryData
+﻿namespace OatmealDome.BinaryData
 {
     /// <summary>
     /// Represents a space of 4 bytes reserved in the underlying stream of a <see cref="BinaryDataWriter"/> which can

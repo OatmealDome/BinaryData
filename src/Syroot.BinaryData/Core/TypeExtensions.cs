@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace Syroot.BinaryData.Core
+namespace OatmealDome.BinaryData.Core
 {
     /// <summary>
     /// Represents a collection of extension methods for the <see cref="Type"/> class.

@@ -1,4 +1,4 @@
-﻿namespace Syroot.BinaryData
+﻿namespace OatmealDome.BinaryData
 {
     /// <summary>
     /// Represents the possible endianness of binary data.

@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using Syroot.BinaryData.Core;
+using OatmealDome.BinaryData.Core;
 
-namespace Syroot.BinaryData
+namespace OatmealDome.BinaryData
 {
     /// <summary>
     /// Represents reflected type configuration required for reading and writing it as binary data.

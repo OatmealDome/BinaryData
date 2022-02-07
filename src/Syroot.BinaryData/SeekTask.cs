@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Syroot.BinaryData
+namespace OatmealDome.BinaryData
 {
     /// <summary>
     /// Represents a temporary seek to another position which is undone after the task has been disposed.

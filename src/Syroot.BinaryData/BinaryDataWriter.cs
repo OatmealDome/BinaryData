@@ -5,10 +5,10 @@ using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using System.Text;
-using Syroot.BinaryData.Core;
-using Syroot.BinaryData.Extensions;
+using OatmealDome.BinaryData.Core;
+using OatmealDome.BinaryData.Extensions;
 
-namespace Syroot.BinaryData
+namespace OatmealDome.BinaryData
 {
     /// <summary>
     /// Represents an extended <see cref="BinaryWriter"/> supporting special file format data types.

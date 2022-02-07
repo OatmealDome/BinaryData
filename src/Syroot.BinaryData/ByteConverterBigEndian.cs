@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security;
 
-namespace Syroot.BinaryData
+namespace OatmealDome.BinaryData
 {
     /// <summary>
     /// Represents a <see cref="ByteConverter"/> which handles little endianness.

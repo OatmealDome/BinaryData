@@ -2,9 +2,9 @@
 using System.IO;
 using System.Runtime.InteropServices;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Syroot.BinaryData.Extensions;
+using OatmealDome.BinaryData.Extensions;
 
-namespace Syroot.BinaryData.UnitTest
+namespace OatmealDome.BinaryData.UnitTest
 {
     [TestClass]
     public class Performance

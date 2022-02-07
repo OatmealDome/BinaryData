@@ -1,6 +1,6 @@
 using System;
 
-namespace Syroot.BinaryData
+namespace OatmealDome.BinaryData
 {
     /// <summary>
     /// Represents the set of formats of binary boolean encodings.

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Syroot.BinaryData
+namespace OatmealDome.BinaryData
 {
     /// <summary>
     /// Represents a <see cref="BitConverter"/> which handles a specific endianness.
