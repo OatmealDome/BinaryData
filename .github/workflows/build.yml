@@ -26,17 +26,17 @@ jobs:
         run: dotnet nuget add source "https://nuget.pkg.github.com/oatmealdome/index.json" --name ghcr --username ${{ github.repository_owner }} --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text
 
       - name: Install dependencies
-        run: dotnet restore
+        run: dotnet restore src/Syroot.BinaryData.sln
         
       - name: Build
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build --configuration Release --no-restore src/Syroot.BinaryData.sln
         
       - name: Test
-        run: dotnet test --no-restore --verbosity normal
+        run: dotnet test --no-restore --verbosity normal src/Syroot.BinaryData.sln
       
       - name: Pack
         if: github.event_name == 'release'
-        run: dotnet pack --configuration Release --no-restore --verbosity normal --output .
+        run: dotnet pack --configuration Release --no-restore --verbosity normal --output . src/Syroot.BinaryData.sln
       
       - name: Push to NuGet Source
         if: github.event_name == 'release'
